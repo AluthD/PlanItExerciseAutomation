@@ -3,11 +3,13 @@ This is the project to automate the Jupiter Toys website as an exercise for Plan
 This includes UI automation tests written in C# using the Selenium framework. 
 
 Development Configuration
+-
 - Developed using Visual Studio 2022
 - Used Selenium NUnit framework
 - .Net 6.0
 
 Contents and structure
+-
   The project solution is structured as below: 
   - Features
   - Models
@@ -20,6 +22,11 @@ Contents and structure
   - GlobalUsing.cs
 
 Test Execution
+-
 Tests can be executed using Test Explorer in Visual Studio or using the command line
 
 This solution can be further extended to convert tests into a BDD framework using Specflow feature scenarios.
+
+Reporting Test Failures
+- 
+Test failure report will be generated as index.html in the solution. It can be opened in the browser to view failed log reports. 
